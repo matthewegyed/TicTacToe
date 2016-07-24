@@ -1,3 +1,5 @@
+package com.egyed.matthew.tictactoe;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Random;
@@ -267,9 +269,13 @@ public class TicTacToe {
 		}
 
 
+		/*
 		if (board[i][j] == '+'){
 			return true;
 		}else return false;
+		*/
+
+		return (board[i][j] == '+');
 	}
 
 
